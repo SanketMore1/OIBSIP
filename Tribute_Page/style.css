@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(146, 194, 241);
+}
+
+.container{
+  border-radius: 25px solid red;  
+
+}
+img{
+    position:center;
+  margin-left: 400px;
+    height: 350px;
+    width: 600px;
+     border-radius: 15px solid rgb(223, 15, 15);
+}
+h1{
+    margin-left: 490px;
+    color: rebeccapurple;
+    position: center;
+}
