@@ -1,20 +1,131 @@
 body{
-    background-color: rgb(146, 194, 241);
+  background: hsl(179,70%,66%);
 }
-
-.container{
-  border-radius: 25px solid red;  
-
+#image{
+  border-style: solid;
+  border-color: darkblue;
+  border-width:15px;
+  border-radius: 50px;
+  max-width: 100%;
+  display:block;
+  height:auto;
+  margin: 0 auto;
 }
-img{
-    position:center;
-  margin-left: 400px;
-    height: 350px;
-    width: 600px;
-     border-radius: 15px solid rgb(223, 15, 15);
+#topic{
+  font-weight:bold;
+   
 }
 h1{
-    margin-left: 490px;
-    color: rebeccapurple;
-    position: center;
+  font-size: 56px;
+  font-style: italic;
+    border-radius:50px;
+  background-color: hsl(297,30%,60%);
+  position: center;
+  margin-left: 200px;
+}
+h2{
+  margin-top:-25px;
+  margin-left: 200px;
+}
+header{
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+#img-div{
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  width:50%;
+}
+#img-caption{
+  text-align:center;
+  font-size: 17px;
+}
+#title{
+ font-family: monospace, sans-serif;
+  
+}
+#tribute-info{
+  background-color:hsl(340,40%,65%);
+  text-align: justify;
+  font-family: "Trebuchet MS", Helvetica;
+}
+h3{
+  text-align:center;
+  padding-top:20px;
+ 
+}
+.bulletins{
+  margin:  0 auto 50px auto;;
+  text-align:left;
+  max-width:750px;
+}
+footer{
+  text-align:center;
+  padding-top:10px;
+  font-size: 18px;
+}
+@media(max-width:800px){
+  img{
+    width:500px;
+  }
+}
+.container{
+  font-size: 20px;
+  font-family:Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr) ;
+  
+}
+.box1{
+   background-color:#AC203D;
+   padding: 4px 8px 4px 16px;
+  border-color:black;
+  border-style:dotted;
+  border-width:10px;
+  border-radius: 80px;
+  grid-area: 1/1/2/2;
+}
+.box2{
+  background:LightSalmon;
+    padding: 4px 8px 4px 16px;
+  border-color:black;
+  border-style:dotted;
+  border-width:10px;
+  border-radius: 80px;
+    grid-area: 2/2/3/3;
+}
+.box3{
+ background:#BD97CB;
+  padding: 4px 8px 4px 16px;
+  border-color:black;
+  border-style:dotted;
+  border-width:10px;
+  border-radius: 80px;
+    grid-area: 3/1/4/2;
+}
+.box4{
+  background-color:#FFC460;
+  padding: 4px 8px 4px 16px;
+  border-color:black;
+  border-style:dotted;
+  border-width:10px;
+  border-radius: 80px;
+    grid-area: 4/2/5/3;
+}
+.box5{
+   background-color:#f34c50;
+    padding: 4px 8px 4px 16px;
+  border-color:black;
+  border-style:dotted;
+  border-width:10px;
+  border-radius: 80px;
+    grid-area: 5/1/6/2;
+}
+.r{
+  background: background: hsl(179,70%,66%);
+  grid-area: empty
 }
